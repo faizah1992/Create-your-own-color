@@ -18,3 +18,9 @@ body {
     margin: 20px;
     color: #d6d5ac;
 }
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
