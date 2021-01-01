@@ -12,3 +12,7 @@ body {
 .container {
     padding: 0 10px;
 }
+
+.title {
+    text-align: center;
+}
