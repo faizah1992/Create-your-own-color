@@ -8,3 +8,7 @@ body {
     background-color: #3e4560;
     color: white;
 }
+
+.container {
+    padding: 0 10px;
+}
