@@ -1,9 +1,13 @@
 const hexInput = document.getElementById('hexInput')
-const inputColot = document.getElementById('inputColor')
+const inputColor = document.getElementById('inputColor')
 
 hexInput.addEventListener('keyup', () => {
     const hex = hexInput.value
     if(!isValidHex(hex)) return
+
+    const strippedHex = hex.replace('#', '')
+
+    inputColor.style.backgroundColor = '#' + strippedHex
 })
 
 const isValidHex = (hex) => {
