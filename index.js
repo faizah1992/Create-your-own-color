@@ -27,5 +27,5 @@ const convertHexToRGB = (hex) {
         + strippedHex[2] + strippedHex[2]
     }
 
-    
+    const r = parseInt(strippedHex.substring(0,2), 16)
 }
