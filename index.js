@@ -46,4 +46,5 @@ const convertHexToRGB = (hex) => {
   
   const r  = parseInt(strippedHex.substring(0,2), 16);
   const g = parseInt(strippedHex.substring(0,2), 16)
+  const r = parseInt(strippedHex.substring(0,2), 16)
 }
